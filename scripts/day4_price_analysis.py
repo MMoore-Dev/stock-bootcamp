@@ -31,3 +31,8 @@ for price in prices:
 average_price = total / len(prices)
 
 print("Average Price: ", round(average_price, 2))
+
+# find the above average price
+for price in prices: 
+    if price > average_price:
+        print(price, "is above average")
