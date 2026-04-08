@@ -23,21 +23,25 @@ def analyze_trade(buy_price, sell_price, shares):
     else:
         result = "BREAK-EVEN"
 
-    return profit, percent_return, result 
+    return {
+        "profit": profit,
+        "percent_return": percent_return,
+        "result": result
+    } 
 
 #Use the function
-profit, percent, result = analyze_trade(100, 115, 10)
+trade = analyze_trade(100, 115, 10)
 
-print("Profit: ", profit)
-print("Percent return: ", round(percent, 2), "%")
+print("Profit: ", trade["profit"])
+print("Percent return: ", round(trade["percent_return"], 2), "%")
+print("Result: ", trade["result"])
 
 # Test for multiple trades
 trades = [(100, 115, 10), (50, 40, 20), (30, 30, 15)]
 
 for trade in trades: 
-    profit, percent, result = analyze_trade(*trade)
+    result_data = analyze_trade(*trade)
     print("\nTrade: ", trade)
-    print("Profit: ", profit)
-    print("Percent: ", round(percent, 2), "%")
-    print("Result: ", result)
-    
+    print("Profit: ", result_data["profit"])
+    print("Percent: ", round(result_data["percent_return"], 2), "%")
+    print("Result: ", result_data["result"])
