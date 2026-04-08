@@ -5,6 +5,7 @@ The goal is to build skills in data analysis and automation.
 ## Current Features
 - Profit/Loss calculator
 - Percentage return calculation
+- Analyze trade function
 
 ## Tech Stack
 - Python
