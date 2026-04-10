@@ -17,3 +17,6 @@ def analyze_trade(buy_price, sell_price, shares):
         "percent_return": percent_return,
         "result": result
     } 
+
+def calculate_average(prices):
+    return sum(prices) / len(prices)
