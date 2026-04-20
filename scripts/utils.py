@@ -18,5 +18,8 @@ def analyze_trade(buy_price, sell_price, shares):
         "result": result
     }
 
+#Calculate average function
 def calculate_average(prices):
+    if len(prices) == 0:
+        return 0
     return sum(prices) / len(prices)
