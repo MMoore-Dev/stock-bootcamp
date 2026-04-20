@@ -5,7 +5,7 @@ shares = 10
 total_cost = buy_price * shares
 total_value = sell_price * shares
 profit = total_value - total_cost
-percent_return = (profit/total_cost) * 100
+percent_return = (profit / total_cost) * 100
 
 print("-----Trade Summary-----")
 print("Total Cost:", total_cost)
