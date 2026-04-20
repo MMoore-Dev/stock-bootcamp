@@ -1,5 +1,12 @@
 # Day 5: Analyze trade function
-from utils import analyze_trade
+from utils import analyze_trade, calculate_average
+
+# --- Price List ---
+prices = [100, 102, 101, 105, 107]
+
+#call the function
+average_price = calculate_average(prices)
+print("\nAverage Price:", round(average_price, 2))
 
 def calculate_profit(buy_price, sell_price, shares):
     total_cost = buy_price * shares
@@ -10,7 +17,7 @@ def calculate_profit(buy_price, sell_price, shares):
 # --- Single Trade Test ---
 trade = analyze_trade(100, 110, 10)
 
-print("Single Trade:")
+print("\nSingle Trade:")
 print("Profit:", trade["profit"])
 print("Percent Return:", round(trade["percent_return"], 2), "%")
 print("Result:", trade["result"])
