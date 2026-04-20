@@ -5,7 +5,11 @@ The goal is to build skills in data analysis and automation.
 ## Current Features
 - Profit/Loss calculator
 - Percentage return calculation
-- Analyze trade function
+- Trade decision logic (profit, loss, break-even)
+- Multi-trade analysis using loops
+- Reusable analysis functions (modular design)
+- CSV file input for stock price data
+- Basic price analysis (average, min, max) 
 
 ## Tech Stack
 - Python
