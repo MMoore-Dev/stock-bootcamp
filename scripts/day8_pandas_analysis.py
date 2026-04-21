@@ -27,3 +27,7 @@ df["daily_change"] = df["price"].diff
 
 print("\nUpdated DataFrame:")
 print(df)
+
+print("\nUpdated DataFrame with daily percent change")
+df["percent_change"] = df["price"].pct_change() * 100
+print(df)
