@@ -10,6 +10,8 @@ The goal is to build skills in data analysis and automation.
 - Reusable analysis functions (modular design)
 - CSV file input for stock price data
 - Basic price analysis (average, min, max) 
+- Data analysis using pandas
+- Derived metrics (daily change, percent change)
 
 ## Tech Stack
 - Python
