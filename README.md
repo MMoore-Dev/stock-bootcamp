@@ -12,6 +12,8 @@ The goal is to build skills in data analysis and automation.
 - Basic price analysis (average, min, max) 
 - Data analysis using pandas
 - Derived metrics (daily change, percent change)
+- Data visualization using matplotlib
+- Moving average calculation
 
 ## Tech Stack
 - Python
