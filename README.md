@@ -14,6 +14,7 @@ The goal is to build skills in data analysis and automation.
 - Derived metrics (daily change, percent change)
 - Data visualization using matplotlib
 - Moving average calculation
+- End-to-end stock analysis tool (data → analysis → visualization)
 
 ## Tech Stack
 - Python
