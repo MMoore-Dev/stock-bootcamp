@@ -16,8 +16,11 @@ window = input("Enter moving average window (default = 3): ")
 
 if window == "":
     window = 3
-else:
+try:
     window = int(window)
+except:
+    print("Invalid input. Using default window = 3")
+    window = 3
 
 # Perform Analysis
 
