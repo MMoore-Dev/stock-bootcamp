@@ -15,6 +15,7 @@ The goal is to build skills in data analysis and automation.
 - Data visualization using matplotlib
 - Moving average calculation
 - End-to-end stock analysis tool (data → analysis → visualization)
+- Interactive user input for file selection and analysis parameters
 
 ## Tech Stack
 - Python
