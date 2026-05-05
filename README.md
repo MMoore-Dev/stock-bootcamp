@@ -16,6 +16,7 @@ The goal is to build skills in data analysis and automation.
 - Moving average calculation
 - End-to-end stock analysis tool (data → analysis → visualization)
 - Interactive user input for file selection and analysis parameters
+- Error handling and input validation for robustness
 
 ## Tech Stack
 - Python
