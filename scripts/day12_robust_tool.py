@@ -25,6 +25,9 @@ try:
 except:
     print("Invalid input. Using default window = 3")
     window = 3
+    
+if len(df) < window:
+    print("Warning: Not enough data for moving average window.")
 
 # Prevent division / data errors
 df["percent_change"] = df["price"].pct_change() * 100
